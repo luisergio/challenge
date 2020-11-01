@@ -4,8 +4,9 @@ import main.java.br.com.luisergio.challenge.business.ExerciseBusiness;
 
 import java.util.Scanner;
 
+
 /**
- * The type Exercise business.
+ * The type Factorial business.
  */
 public class FactorialBusinessImpl implements ExerciseBusiness {
 

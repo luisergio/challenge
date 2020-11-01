@@ -1,6 +1,7 @@
 package main.java.br.com.luisergio.challenge;
 
 import main.java.br.com.luisergio.challenge.business.impl.FactorialBusinessImpl;
+import main.java.br.com.luisergio.challenge.business.impl.MultiplesOfThreeAndFiveBusinessImpl;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -27,16 +28,7 @@ public class ChallengeApplication {
         int option;
 
         do{
-
-            System.out.println("Type the number of the exercise to be executed:");
-            System.out.println("  1 - Votes in relation to the total number of voters");
-            System.out.println("  2 - Bubble Sort");
-            System.out.println("  3 - Factorial");
-            System.out.println("  4 - Sum of multiples of 3 or 5");
-            System.out.println("  To exit type -1");
-            System.out.println();
-
-            System.out.print("Execute: ");
+            ChallengeApplication.printExerciseList();
 
             try {
                 option = sc.nextInt();
@@ -55,6 +47,8 @@ public class ChallengeApplication {
                         break;
                     case 4:
                         System.out.println("Executing 4...");
+                        MultiplesOfThreeAndFiveBusinessImpl exe4 = new MultiplesOfThreeAndFiveBusinessImpl();
+                        exe4.execute();
                         break;
                     case -1:
                         System.out.println("Exiting...");
@@ -75,5 +69,16 @@ public class ChallengeApplication {
 
         }
         while(option != -1);
+    }
+
+    public static void printExerciseList(){
+        System.out.println("Type the number of the exercise to be executed:");
+        System.out.println("  1 - Votes in relation to the total number of voters");
+        System.out.println("  2 - Bubble Sort");
+        System.out.println("  3 - Factorial");
+        System.out.println("  4 - Sum of multiples of 3 or 5");
+        System.out.println("  To exit type -1");
+        System.out.println();
+        System.out.print("Execute: ");
     }
 }
