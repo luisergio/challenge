@@ -1,6 +1,6 @@
-package main.java.br.com.luisergio.challenge.business.impl;
+package br.com.luisergio.challenge.business.impl;
 
-import main.java.br.com.luisergio.challenge.business.ExerciseBusiness;
+import br.com.luisergio.challenge.business.ExerciseBusiness;
 
 import java.util.Scanner;
 

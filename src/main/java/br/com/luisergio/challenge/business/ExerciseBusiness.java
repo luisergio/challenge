@@ -1,4 +1,4 @@
-package main.java.br.com.luisergio.challenge.business;
+package br.com.luisergio.challenge.business;
 
 /**
  * The interface Exercise business.
