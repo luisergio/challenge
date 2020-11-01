@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="481fc6f2-066f-4433-bfd8-6995d100ee12" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/luisergio/challenge/business/impl/BubbleSortBusinessImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Challenge.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Challenge.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Challenge/main/java/br/com/luisergio/challenge/ChallengeApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Challenge/main/java/br/com/luisergio/challenge/ChallengeApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Challenge/main/java/br/com/luisergio/challenge/ChallengeApplication.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/luisergio/challenge/ChallengeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/luisergio/challenge/ChallengeApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/luisergio/challenge/business/ExerciseBusiness.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/luisergio/challenge/business/ExerciseBusiness.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/luisergio/challenge/business/impl/FactorialBusinessImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/luisergio/challenge/business/impl/FactorialBusinessImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/luisergio/challenge/business/impl/MultiplesOfThreeAndFiveBusinessImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/luisergio/challenge/business/impl/MultiplesOfThreeAndFiveBusinessImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +23,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/luisergio/challenge/ChallengeApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-149">
-              <caret line="39" column="83" selection-start-line="39" selection-start-column="83" selection-end-line="39" selection-end-column="83" />
+            <state relative-caret-position="-209">
+              <caret line="57" column="30" lean-forward="true" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/luisergio/challenge/business/impl/VotesBusinessImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="-229">
+              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
               <folding>
                 <element signature="e#1180#1181#0" expanded="true" />
                 <element signature="e#1204#1205#0" expanded="true" />
@@ -58,6 +55,20 @@
                 <element signature="e#1366#1367#0" expanded="true" />
                 <element signature="e#1228#1229#0" expanded="true" />
                 <element signature="e#1265#1266#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/luisergio/challenge/business/impl/BubbleSortBusinessImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="760">
+              <caret line="38" column="11" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#bubbleSort#0;class#BubbleSortBusinessImpl#0" />
+                <element signature="method#printVector#0;class#BubbleSortBusinessImpl#0" />
               </folding>
             </state>
           </provider>
@@ -75,8 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/luisergio/challenge/business/impl/FactorialBusinessImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+            <state relative-caret-position="340">
+              <caret line="35" column="10" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,8 +135,9 @@
         <option value="$PROJECT_DIR$/src/test/unit/business/FactorialBusinessTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/luisergio/challenge/business/impl/FactorialBusinessImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/luisergio/challenge/business/impl/MultiplesOfThreeAndFiveBusinessImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/luisergio/challenge/ChallengeApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/luisergio/challenge/business/impl/VotesBusinessImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/luisergio/challenge/business/impl/BubbleSortBusinessImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/luisergio/challenge/ChallengeApplication.java" />
       </list>
     </option>
   </component>
@@ -173,6 +185,33 @@
               <item name="Challange" type="b2602c69:ProjectViewProjectNode" />
               <item name="challenge" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="challenge" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Challange" type="b2602c69:ProjectViewProjectNode" />
+              <item name="challenge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="challenge" type="462c0819:PsiDirectoryNode" />
+              <item name="business" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Challange" type="b2602c69:ProjectViewProjectNode" />
+              <item name="challenge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="challenge" type="462c0819:PsiDirectoryNode" />
+              <item name="business" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Challange" type="b2602c69:ProjectViewProjectNode" />
+              <item name="challenge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -192,6 +231,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.luisergio.challenge.business.impl" />
       <recent name="main.java.br.com.luisergio.challenge.business.impl" />
     </key>
   </component>
@@ -209,7 +249,7 @@
   </component>
   <component name="RunManager">
     <configuration name="ChallengeApplication" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.br.com.luisergio.challenge.ChallengeApplication" />
+      <option name="MAIN_CLASS_NAME" value="br.com.luisergio.challenge.ChallengeApplication" />
       <module name="Challenge" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -237,6 +277,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="53" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Favorites" side_tool="true" />
@@ -283,16 +324,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/luisergio/challenge/business/impl/FactorialBusinessImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/luisergio/challenge/business/impl/MultiplesOfThreeAndFiveBusinessImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
@@ -300,20 +331,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/luisergio/challenge/ChallengeApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-149">
-          <caret line="39" column="83" selection-start-line="39" selection-start-column="83" selection-end-line="39" selection-end-column="83" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/luisergio/challenge/business/impl/VotesBusinessImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        <state relative-caret-position="-229">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
           <folding>
             <element signature="e#1180#1181#0" expanded="true" />
             <element signature="e#1204#1205#0" expanded="true" />
@@ -323,6 +344,38 @@
             <element signature="e#1366#1367#0" expanded="true" />
             <element signature="e#1228#1229#0" expanded="true" />
             <element signature="e#1265#1266#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/luisergio/challenge/business/impl/FactorialBusinessImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="35" column="10" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/luisergio/challenge/ChallengeApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-209">
+          <caret line="57" column="30" lean-forward="true" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/luisergio/challenge/business/impl/BubbleSortBusinessImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="38" column="11" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#bubbleSort#0;class#BubbleSortBusinessImpl#0" />
+            <element signature="method#printVector#0;class#BubbleSortBusinessImpl#0" />
           </folding>
         </state>
       </provider>
@@ -382,6 +435,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

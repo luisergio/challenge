@@ -1,5 +1,2 @@
-.idea/*
-out/*
-
-.idea/workspace.xml
-out/production/Challenge/main/java/br/com/luisergio/challenge/ChallengeApplication.class
+.idea
+out

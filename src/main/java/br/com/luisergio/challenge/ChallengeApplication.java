@@ -1,5 +1,6 @@
 package br.com.luisergio.challenge;
 
+import br.com.luisergio.challenge.business.impl.BubbleSortBusinessImpl;
 import br.com.luisergio.challenge.business.impl.FactorialBusinessImpl;
 import br.com.luisergio.challenge.business.impl.MultiplesOfThreeAndFiveBusinessImpl;
 import br.com.luisergio.challenge.business.impl.VotesBusinessImpl;
@@ -42,6 +43,8 @@ public class ChallengeApplication {
                         break;
                     case 2:
                         System.out.println("Executing 2...");
+                        BubbleSortBusinessImpl exe2 = new BubbleSortBusinessImpl();
+                        exe2.execute();
                         break;
                     case 3:
                         System.out.println("Executing 3...");
