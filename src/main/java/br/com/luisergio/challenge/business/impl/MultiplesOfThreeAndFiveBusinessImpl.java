@@ -35,7 +35,7 @@ public class MultiplesOfThreeAndFiveBusinessImpl implements ExerciseBusiness {
      * @param value the value
      * @return the sum
      */
-    public long getSum(int value) {
+    private long getSum(int value) {
 
         if(value < 2)
             return 0;

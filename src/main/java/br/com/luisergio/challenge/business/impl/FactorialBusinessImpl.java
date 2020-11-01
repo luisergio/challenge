@@ -33,7 +33,7 @@ public class FactorialBusinessImpl implements ExerciseBusiness {
      * @param value the value to use on calculation
      * @return the factorial
      */
-    public long getFactorial(int value) {
+    private long getFactorial(int value) {
         if(value <= 1)
             return 1;
 

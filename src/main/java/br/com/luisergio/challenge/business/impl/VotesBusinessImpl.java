@@ -61,7 +61,7 @@ public class VotesBusinessImpl implements ExerciseBusiness {
      * @param total the total
      * @return the percentage
      */
-    public float getPercentage(int part, int total) {
+    private float getPercentage(int part, int total) {
         return (part * 100f) / total;
     }
 }

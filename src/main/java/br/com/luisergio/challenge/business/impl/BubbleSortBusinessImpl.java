@@ -36,6 +36,12 @@ public class BubbleSortBusinessImpl implements ExerciseBusiness {
         this.printVector(sortedVector);
     }
 
+    /**
+     * Bubble sort int [ ].
+     *
+     * @param vector the vector
+     * @return the int [ ]
+     */
     private int[] bubbleSort(int[] vector){
         int[] sortedVector = vector.clone();
         boolean isSorted;
@@ -58,6 +64,11 @@ public class BubbleSortBusinessImpl implements ExerciseBusiness {
         return sortedVector;
     }
 
+    /**
+     * Print vector.
+     *
+     * @param vector the vector
+     */
     private void printVector(int[] vector){
         System.out.print("[");
         for(int index = 0; index < vector.length; index ++){
