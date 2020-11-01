@@ -1,7 +1,8 @@
-package main.java.br.com.luisergio.challenge;
+package br.com.luisergio.challenge;
 
-import main.java.br.com.luisergio.challenge.business.impl.FactorialBusinessImpl;
-import main.java.br.com.luisergio.challenge.business.impl.MultiplesOfThreeAndFiveBusinessImpl;
+import br.com.luisergio.challenge.business.impl.FactorialBusinessImpl;
+import br.com.luisergio.challenge.business.impl.MultiplesOfThreeAndFiveBusinessImpl;
+import br.com.luisergio.challenge.business.impl.VotesBusinessImpl;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -36,6 +37,8 @@ public class ChallengeApplication {
                 switch (option){
                     case 1:
                         System.out.println("Executing 1...");
+                        VotesBusinessImpl exe1 = new VotesBusinessImpl(800, 150, 50);
+                        exe1.execute();
                         break;
                     case 2:
                         System.out.println("Executing 2...");
